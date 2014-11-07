@@ -1,0 +1,14 @@
+{
+    "name": "ppokatilo/symfony-bundle-installer-plugin",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "SHy\\Composer\\": "" }
+    },
+    "extra": {
+        "class": "SHy\\Composer\\SymfonyBundleInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    }
+}
