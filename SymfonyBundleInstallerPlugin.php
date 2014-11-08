@@ -1,6 +1,6 @@
 <?php
 
-namespace SHy\Composer;
+namespace SHyx0rmZ\Composer;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
