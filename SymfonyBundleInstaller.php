@@ -171,6 +171,7 @@ class SymfonyBundleInstaller extends LibraryInstaller
         $appKernelContents = $this->replaceBundlesSection($appKernelContents, $bundles, $bundlesSectionOffset, $bundlesSectionLength);
 
         if ($this->appKernelChanged($appKernelContents)) {
+            $this->io->write('');
             $this->writeAppKernel($appKernelContents);
         }
     }
