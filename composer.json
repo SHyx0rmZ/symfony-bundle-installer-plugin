@@ -1,14 +1,24 @@
 {
     "name": "ppokatilo/symfony-bundle-installer-plugin",
     "type": "composer-plugin",
+    "description": "Automatically updates AppKernel.php when installing or removing symfony bundles",
+    "keywords": [ "symfony", "bundle", "composer", "installer", "plugin" ],
+    "homepage": "http://github.com/SHyx0rmZ/symfony-bundle-installer-plugin",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Pokatilo",
+            "email": "mail@shyxormz.net"
+        }
+    ],
     "autoload": {
-        "psr-4": { "SHy\\Composer\\": "" }
+        "psr-4": { "SHyx0rmZ\\Composer\\": "" }
     },
     "extra": {
-        "class": "SHy\\Composer\\SymfonyBundleInstallerPlugin"
+        "class": "SHyx0rmZ\\Composer\\SymfonyBundleInstallerPlugin"
     },
     "require": {
-        "composer-plugin-api": "1.0.0"
+        "composer-plugin-api": "1.0.0",
+        "symfony/finder": "~2.0"
     }
 }
