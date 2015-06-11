@@ -18,7 +18,7 @@
         "class": "SHyx0rmZ\\Composer\\SymfonyBundleInstallerPlugin"
     },
     "require": {
-        "composer-plugin-api": "1.0.0",
+        "composer-plugin-api": "^1.0",
         "symfony/finder": "~2.0"
     }
 }
